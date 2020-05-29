@@ -45,6 +45,7 @@ export class ContactForm extends Component {
 					onChange={this.handleChange}
 					type="text"
 					name="name"
+					placeholder="Your name"
 					value={name}
 					id={nameInputId}
 				/>
@@ -53,6 +54,7 @@ export class ContactForm extends Component {
 					type="tel"
 					name="number"
 					pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}"
+					placeholder="000-00-00"
 					id={phoneInputId}
 					value={number}
 					onChange={this.handleChange}
